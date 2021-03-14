@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Desing_Patterns_C_.SOLID.SRP;
 
 namespace Desing_Patterns_C_
 {
@@ -6,7 +6,7 @@ namespace Desing_Patterns_C_
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SprProgram.SprMain(args);
         }
     }
 }
