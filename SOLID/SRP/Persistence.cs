@@ -6,7 +6,7 @@ namespace Desing_Patterns_C_.SOLID.SRP
     {
         public void SaveToFile(Journal journal, string fileName, bool overwitre = false)
         {
-            if (overwitre || !File.Exists(fileName));
+            if (overwitre || !File.Exists(fileName))
                 File.WriteAllText(fileName, journal.ToString());
         }
     }
