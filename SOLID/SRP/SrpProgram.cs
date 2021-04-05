@@ -6,7 +6,7 @@ namespace Desing_Patterns_C_.SOLID.SRP
 {
     public class SprProgram
     {        
-        public static void SprMain(string[] args)
+        public void SprMain()
         {
             var journal = new Journal();
             journal.AddEntry("I cried today");
